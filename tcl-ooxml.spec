@@ -5,7 +5,7 @@
 
 Name:          tcl-ooxml
 Summary:       ECMA-376 Office Open XML File Formats for Tcl
-Version:       1.6
+Version:       1.6.1
 Release:       0
 License:       BSD-3-Clause
 Group:         Development/Libraries/Tcl

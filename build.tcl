@@ -1,8 +1,8 @@
 #!/usr/bin/tclsh
 
 set arch "noarch"
-set base "ooxml-version-1.6"
-set fileurl "https://github.com/aschoepe/ooxml/archive/refs/tags/version-1.6.tar.gz"
+set base "ooxml-version-1.6.1"
+set fileurl "https://github.com/aschoepe/ooxml/archive/refs/tags/version-1.6.1.tar.gz"
 
 set var [list wget $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
